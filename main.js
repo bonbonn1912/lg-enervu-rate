@@ -86,5 +86,5 @@ function getTodayDate() {
 }
 
 const date = process.argv[2] || getTodayDate();
-console.log(process.env.LG_LOGIN_BODY)
+console.log(process.env.DB_HOST)
 parse(date)
